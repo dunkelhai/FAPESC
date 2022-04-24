@@ -1,0 +1,9 @@
+ano1=(int(input("Ano:")))
+aluno=input("Nome do Aluno:")
+dia=input("Dia:")
+mes=input("Mês:")
+ano2=int(input("Ano de nascimento:"))
+idade=int(input("Sua idade:"))
+idade=ano1-ano2
+print("Olá {}".format(aluno))
+print("No dia " + dia + " de " + mes+ " parabéns pelo seu aniversário de {} ".format (idade)+ 'anos')

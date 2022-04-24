@@ -1,0 +1,63 @@
+EXERCICIO 1:
+
+n1=int(input('valor:'))
+print(n1-1)
+
+EXERCICIO 2:
+a=int(input('Quanto você ganha por hora?'))
+b=int(input('Quantas horas trabalha por mês?'))
+salario=int(input(a*b))
+
+EXERCICIO 3:
+base=int(input('Base:'))
+altura=int(input('Altura:'))
+area=int(input(base*altura))
+
+EXERCICIO 4:
+print=input('Quantos anos que você tem?')
+ano=int(input('Ano:'))
+dia=int(input('Dia:'))
+mes=int(input('Mês:'))
+idade=int(input(ano*365)+(mes*30)+dia)
+print=int(input(idade))
+
+EXERCICIO 5:
+a=10
+b=20
+c=a
+a=b
+b=c
+print(a,b)
+
+EXERCICIO 6:
+carro=int(input('Valor do carro:'))
+custo=(28+45)/100
+imposto=int(input(custo*carro))
+venda=int(input(imposto+carro))
+print=int(input('o valor total é de :', venda))
+
+EXERCICIO 7:
+f=int(input('Digite a temperatura em Fahrenheit:'))
+c=5*((f-32)/9)
+print('A temperatura em Celsius é de:', c)
+
+EXERCICIO 8:
+altura=float(input('Altura:'))
+peso=72.7*altura-58
+print(round(peso))
+
+EXERCICIO 9:
+metros=int(input('Metros:'))
+cent=metros*100
+print(cent)
+
+EXERCICIO 10:
+ora=int(input('Quanto você ganha por hora?'))
+mes=int(input("Qual o número de horas trabalhadas no mes?"))
+salario=hora*mes
+bruto=('Seu salário bruto é ', salario)
+ir=salario*(11/100)
+sindicato=salario*(5/100)
+inss=salario*(8/100)
+total=salario-(ir+sindicato+inss)
+print(total)
